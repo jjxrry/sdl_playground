@@ -8,9 +8,13 @@ int main() {
         cout << "SDL could not initialize! SDL_Error: " << SDL_GetError() << endl;
         return -1;
     }
-    
-    cout << "Hello, C++ World!" << endl;
 
+    SDL_Window * SDL_CreatePopupWindow(SDL_Window *parent, int offset_x, int offset_y, int w, int h, SDL_WindowFlags flags);
+
+    
+    cout << "(SDL) No Errors Thrown, yay!" << endl;
+
+    // input "q" to quit
     SDL_Quit();
     return 0;
 }
