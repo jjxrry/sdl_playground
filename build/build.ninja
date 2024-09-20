@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_sdl_prac: phony || .
 
 build CMakeFiles/sdl_prac.dir/src/main.cpp.o: CXX_COMPILER__sdl_prac_unscanned_Debug /Users/jerrygao/Development/repos/cpp/sdl_prac/src/main.cpp || cmake_object_order_depends_target_sdl_prac
   DEP_FILE = CMakeFiles/sdl_prac.dir/src/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  FLAGS = -g -std=gnu++17 -arch arm64 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   INCLUDES = -I/usr/local/lib/cmake/SDL3/include -I/usr/local/include
   OBJECT_DIR = CMakeFiles/sdl_prac.dir
   OBJECT_FILE_DIR = CMakeFiles/sdl_prac.dir/src
@@ -65,7 +65,7 @@ build CMakeFiles/sdl_prac.dir/src/main.cpp.o: CXX_COMPILER__sdl_prac_unscanned_D
 # Link the executable sdl_prac
 
 build sdl_prac: CXX_EXECUTABLE_LINKER__sdl_prac_Debug CMakeFiles/sdl_prac.dir/src/main.cpp.o | /usr/local/lib/libSDL3.0.dylib
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  FLAGS = -g -arch arm64 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libSDL3.0.dylib
   OBJECT_DIR = CMakeFiles/sdl_prac.dir
   POST_BUILD = :

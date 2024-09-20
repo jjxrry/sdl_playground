@@ -747,7 +747,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "arm64;x86_64"
 		},
 		{
 			"name" : "CMAKE_OSX_DEPLOYMENT_TARGET",
