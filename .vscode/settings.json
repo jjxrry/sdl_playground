@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.css": "tailwindcss",
-        "iostream": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "enabled"
-}
